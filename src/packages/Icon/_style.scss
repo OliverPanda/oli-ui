@@ -1,0 +1,17 @@
+.oli-icon {
+  display: inline-block;
+  vertical-align: middle;
+  & + .oli-icon, & + .btn {
+    margin-left: $spacer;
+  }
+  &:not(:only-child) {
+    margin-right: $btn-padding-x-sm;
+    &:not(:first-child) {
+      margin-left: $btn-padding-x-sm;
+    }
+  }
+}
+.inlineBlock {
+  display: inline-block;
+  vertical-align: middle;
+}
