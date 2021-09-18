@@ -1,6 +1,6 @@
-import React from 'react';
-import classNames from 'classnames';
-import Icon from '../Icon';
+import React from 'react'
+import classNames from 'classnames'
+import { Icon } from 'oli-ui'
 import { IconProp } from '@fortawesome/fontawesome-svg-core'
 
 export type ButtonSize = 'lg' | 'sm'
@@ -63,8 +63,7 @@ const Button:React.FC<ButtonProps> = (props) => {
 
 Button.defaultProps = {
   disabled: false,
-  type: 'default',
-  loading: false
+  type: 'default'
 }
 
 export default Button

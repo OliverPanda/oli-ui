@@ -22,7 +22,4 @@ const Icon:React.FC<IconProps> = props => {
   )
 }
 
-Icon.defaultProps = {
-}
-
 export default Icon

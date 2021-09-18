@@ -6,7 +6,6 @@ export default defineConfig({
   favicon: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   outputPath: 'docs-dist',
-  // base: '/packages',
   mfsu: {
     development : {
       output : "./.mfsu-dev",
@@ -15,9 +14,6 @@ export default defineConfig({
       output : "./.mfsu-prod",
     }
   },
-  // links: [
-  //   { rel: 'stylesheet', href: 'src/styles/index.scss'                                                                                                                                                                                                     }
-  // ],
   sass: {
     // 默认值 Dart Sass，如果要改用 Node Sass，可安装 node-sass 依赖，然后使用该配置项
     implementation: require('node-sass'),

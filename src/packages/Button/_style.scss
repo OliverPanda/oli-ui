@@ -65,7 +65,8 @@
     box-shadow: none;
   }
   &:disabled,
-  &.disabled {
+  &.disabled,
+  &[disabled] {
     color: $btn-link-disabled-color;
     pointer-events: none;
   }

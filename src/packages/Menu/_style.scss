@@ -1,0 +1,14 @@
+.menu {
+  flex-direction: row;
+  &.menu-vertical {
+    flex-direction: column;
+  }
+  .menu-item {
+    &.disabled,
+    &:disabled,
+    &[disabled] {
+      color: $btn-link-disabled-color;
+      pointer-events: none;
+    }
+  }
+}
